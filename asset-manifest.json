@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/theachieverjournal/static/css/main.5c80ef43.chunk.css",
+    "main.js": "/theachieverjournal/static/js/main.e54ec233.chunk.js",
+    "main.js.map": "/theachieverjournal/static/js/main.e54ec233.chunk.js.map",
+    "runtime-main.js": "/theachieverjournal/static/js/runtime-main.c2bd5edb.js",
+    "runtime-main.js.map": "/theachieverjournal/static/js/runtime-main.c2bd5edb.js.map",
+    "static/js/2.398e0da0.chunk.js": "/theachieverjournal/static/js/2.398e0da0.chunk.js",
+    "static/js/2.398e0da0.chunk.js.map": "/theachieverjournal/static/js/2.398e0da0.chunk.js.map",
+    "static/js/3.be299863.chunk.js": "/theachieverjournal/static/js/3.be299863.chunk.js",
+    "static/js/3.be299863.chunk.js.map": "/theachieverjournal/static/js/3.be299863.chunk.js.map",
+    "index.html": "/theachieverjournal/index.html",
+    "static/css/main.5c80ef43.chunk.css.map": "/theachieverjournal/static/css/main.5c80ef43.chunk.css.map",
+    "static/js/2.398e0da0.chunk.js.LICENSE.txt": "/theachieverjournal/static/js/2.398e0da0.chunk.js.LICENSE.txt",
+    "static/media/github-brands.e2f07326.svg": "/theachieverjournal/static/media/github-brands.e2f07326.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2bd5edb.js",
+    "static/js/2.398e0da0.chunk.js",
+    "static/css/main.5c80ef43.chunk.css",
+    "static/js/main.e54ec233.chunk.js"
+  ]
+}
