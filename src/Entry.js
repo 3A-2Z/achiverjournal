@@ -24,7 +24,7 @@ function Entry(){
     *   Sets all attributes from the retrived journal entry json that are to be displayed in the JournalEntry component view
     */
     function getEntryAttributes(entry){
-        setText(prevState => entry.text)
+        setText(prevState => entry.text) 
         setTitle(prevState => entry.title)
         setDate(prevState => entry.date)
         setTags(prevState => entry.entryTags)
