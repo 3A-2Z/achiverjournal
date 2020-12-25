@@ -9,7 +9,7 @@ import { wait, waitFor } from '@testing-library/react';
 */
 function Entry(){
     
-    let currPath = window.location.pathname.split("/")
+    let currPath = window.location.pathname.replace("/#",'').split("/")
     
     let entryID = " "
     entryID = (currPath.length === 3)? currPath[2] : currPath[1] // Parses the URL for an journal entry ID to be used in the fetching of any changes to that entry
