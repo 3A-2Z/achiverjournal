@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/achiverjournal/static/css/main.5c80ef43.chunk.css",
-    "main.js": "/achiverjournal/static/js/main.e70b2648.chunk.js",
-    "main.js.map": "/achiverjournal/static/js/main.e70b2648.chunk.js.map",
-    "runtime-main.js": "/achiverjournal/static/js/runtime-main.be0399e0.js",
-    "runtime-main.js.map": "/achiverjournal/static/js/runtime-main.be0399e0.js.map",
-    "static/js/2.78a751ea.chunk.js": "/achiverjournal/static/js/2.78a751ea.chunk.js",
-    "static/js/2.78a751ea.chunk.js.map": "/achiverjournal/static/js/2.78a751ea.chunk.js.map",
-    "static/js/3.be299863.chunk.js": "/achiverjournal/static/js/3.be299863.chunk.js",
-    "static/js/3.be299863.chunk.js.map": "/achiverjournal/static/js/3.be299863.chunk.js.map",
-    "index.html": "/achiverjournal/index.html",
-    "static/css/main.5c80ef43.chunk.css.map": "/achiverjournal/static/css/main.5c80ef43.chunk.css.map",
-    "static/js/2.78a751ea.chunk.js.LICENSE.txt": "/achiverjournal/static/js/2.78a751ea.chunk.js.LICENSE.txt",
-    "static/media/github-brands.e2f07326.svg": "/achiverjournal/static/media/github-brands.e2f07326.svg"
+    "main.css": "/static/css/main.5c80ef43.chunk.css",
+    "main.js": "/static/js/main.a58bfd4e.chunk.js",
+    "main.js.map": "/static/js/main.a58bfd4e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b79b452.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b79b452.js.map",
+    "static/js/2.3510f3bc.chunk.js": "/static/js/2.3510f3bc.chunk.js",
+    "static/js/2.3510f3bc.chunk.js.map": "/static/js/2.3510f3bc.chunk.js.map",
+    "static/js/3.be299863.chunk.js": "/static/js/3.be299863.chunk.js",
+    "static/js/3.be299863.chunk.js.map": "/static/js/3.be299863.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5c80ef43.chunk.css.map": "/static/css/main.5c80ef43.chunk.css.map",
+    "static/js/2.3510f3bc.chunk.js.LICENSE.txt": "/static/js/2.3510f3bc.chunk.js.LICENSE.txt",
+    "static/media/github-brands.e2f07326.svg": "/static/media/github-brands.e2f07326.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.be0399e0.js",
-    "static/js/2.78a751ea.chunk.js",
+    "static/js/runtime-main.5b79b452.js",
+    "static/js/2.3510f3bc.chunk.js",
     "static/css/main.5c80ef43.chunk.css",
-    "static/js/main.e70b2648.chunk.js"
+    "static/js/main.a58bfd4e.chunk.js"
   ]
 }
