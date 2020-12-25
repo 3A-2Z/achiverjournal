@@ -9,10 +9,10 @@ import { wait, waitFor } from '@testing-library/react';
 */
 function Entry(){
     
-    let currPath = window.location.pathname.replace("/#",'').split("/")
-    
+    let currPath = window.location.href.split("#/")[1].split("/")
+    console.log(currPath)
     let entryID = " "
-    entryID = (currPath.length === 3)? currPath[2] : currPath[1] // Parses the URL for an journal entry ID to be used in the fetching of any changes to that entry
+    entryID = (currPath.length === 2)? currPath[1] : currPath[0] // Parses the URL for an journal entry ID to be used in the fetching of any changes to that entry
     const history = useHistory()//tags on journal id to URL upon posting of new entry
     const [text,setText] = useState("")
     const [display,setDisplay] = useState(entryID === 'entry' ? true : false) // changes the mode of the journal entry for viewing or editing
