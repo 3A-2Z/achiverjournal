@@ -11,7 +11,7 @@ function App() {
   * Retrieves all journal entries from the AchieverJournal API
   */
   useEffect(
-    () => {fetch('http://achieverjournal-env.eba-2ezdz2u2.us-east-1.elasticbeanstalk.com//api/v1/entries').
+    () => {fetch('http://achieverjournal-env.eba-2ezdz2u2.us-east-1.elasticbeanstalk.com/api/v1/entries').
       then(res => res.json()).
       then(entries => {setEntries(entries)})
   },[]
