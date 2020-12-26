@@ -1,0 +1,18 @@
+spring:
+    profiles:
+        active: '@spring.profiles.active@'
+   
+server:
+    port: 5000
+    error:
+        whitelabel:
+            enabled: false  
+     
+app: 
+    datasource:
+        jdbc-url: jdbc:postgresql://aab2vua6g2i8sj.cfrwarbl7jf8.us-east-1.rds.amazonaws.com:5432/ebdb
+        username: postgres
+        password: achiever 
+        pool-size: 30 
+ 
+        

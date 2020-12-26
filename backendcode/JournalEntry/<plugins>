@@ -1,0 +1,59 @@
+<plugins>
+	<plugin>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-maven-plugin</artifactId>
+	</plugin>
+	
+	<plugin>
+		<artifactId>maven-resources-plugin</artifactId> 
+		<executions>
+			<execution>
+			<id>copy-resources</id>
+			<phase>validate</phase> 
+			<goals>
+				<goal>copy-resources</goal>
+			</goals>  
+			<configuration>
+				<outputDirectory>${basedir}/target/classes/static/</outputDirectory>
+				<resources>
+					<resource>
+						<directory>${basedir}/src/main/achiverjournal/build</directory>  
+					</resource>
+				</resources>
+			</configuration>
+			</execution>
+
+		</executions>
+	</plugin>
+
+	</plugins> 
+
+
+
+
+    <plugin>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.0.1</version>
+    <executions>
+        <execution>
+            <id>position-react-build</id>
+            <goals> 
+                <goal>copy-resources</goal>
+            </goals>
+            <phase>prepare-package</phase>
+            <configuration>
+                <outputDirectory>${basedir}/src/main/resources/static/</outputDirectory>
+                <resources>
+                    <resource>
+                        <directory>${frontend-src-dir}/build</directory>
+                        <filtering>false</filtering>
+                    </resource>
+                </resources>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+
+
+
+psql \ --host=mypostgresql.aab2vua6g2i8sj.cfrwarbl7jf8.us-east-1.rds.amazonaws.com \ --port=5432 \ --username=postgres \ --password \ --dbname=ebdb

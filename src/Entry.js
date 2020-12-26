@@ -1,5 +1,5 @@
 import {Component, useEffect,useState} from 'react'
-import { Switch,Route,Link } from 'react-router-dom';
+import { Switch,Route,Link,Redirect } from 'react-router-dom';
 import {useHistory} from 'react-router-dom'
 import './test.css';
 import axios from 'axios'
@@ -35,8 +35,21 @@ function Entry(){
        () => fetch(`http://journalentry-env.eba-xri3y22g.us-east-1.elasticbeanstalk.com/${entryID}`).then(res => res.json()).then(entry => getEntryAttributes(entry)),[]
     )
     
-    
-    
+    /*
+    *deleteHandler removes unwanted journal entry upon call
+    */
+    const deleteHandler = async () => {
+        await axios({
+                method: 'delete',
+                url:  `http://journalentry-env.eba-xri3y22g.us-east-1.elasticbeanstalk.com/del/${entryID}`, 
+                data: {"ID":entryID}, 
+                headers:{
+                "Content-Type":'application/json',
+                'Access-Control-Allow-Origin': '*',
+                }})
+        history.push('/journal')
+
+  }
     async function HandleClick(event){
         let jsonData = {"ID":"","title":title,"text":text} //Data to be sent to the JournalEntry API  to either insert into the dabase or update an existing journal
         
@@ -132,7 +145,10 @@ function Entry(){
         </div>
         <button onClick = {HandleClick}>Edit</button>
         <br />   
+        <button onClick = {deleteHandler}>Delete</button>
+        <br />   
         <Link to="/journal"><button>Back to Entries</button></Link>
+        
         </form>
         
 

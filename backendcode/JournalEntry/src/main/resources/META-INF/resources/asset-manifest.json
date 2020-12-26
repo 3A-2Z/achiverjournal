@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c80ef43.chunk.css",
+    "main.js": "/static/js/main.01b430f8.chunk.js",
+    "main.js.map": "/static/js/main.01b430f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5b79b452.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5b79b452.js.map",
+    "static/js/2.a7965578.chunk.js": "/static/js/2.a7965578.chunk.js",
+    "static/js/2.a7965578.chunk.js.map": "/static/js/2.a7965578.chunk.js.map",
+    "static/js/3.be299863.chunk.js": "/static/js/3.be299863.chunk.js",
+    "static/js/3.be299863.chunk.js.map": "/static/js/3.be299863.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5c80ef43.chunk.css.map": "/static/css/main.5c80ef43.chunk.css.map",
+    "static/js/2.a7965578.chunk.js.LICENSE.txt": "/static/js/2.a7965578.chunk.js.LICENSE.txt",
+    "static/media/github-brands.e2f07326.svg": "/static/media/github-brands.e2f07326.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b79b452.js",
+    "static/js/2.a7965578.chunk.js",
+    "static/css/main.5c80ef43.chunk.css",
+    "static/js/main.01b430f8.chunk.js"
+  ]
+}

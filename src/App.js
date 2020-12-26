@@ -2,6 +2,7 @@ import logo from './github-brands.svg';
 import './App.scss';
 import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
+import axios from 'axios'
 /*
 * Functions as a view for the AchieverJournal component
 */
@@ -18,13 +19,14 @@ function App() {
 
 
   )
+
   
 
   
   return (
     <div className="App">
       <header className="App-header">
-        <a href="https://github.com/3A-2Z"><img src={logo} class="fa-github"></img></a>
+        <a href="https://github.com/3A-2Z/achiverjournal/tree/master"><img src={logo} class="fa-github"></img></a>
       
           <div class="container">
   <Link to="/entry"><button class="new-entry">Begin Writing Towards Your Goals!</button></Link>
@@ -41,7 +43,6 @@ function App() {
       <div class="col col-1" >{entry.title}</div>
       <div class="col col-2" >{entry.date}</div>
       <div class="col col-3" ><Link to={`/entry/${entry.ID}`}>Go to Entry!</Link></div>{/* links to journal entry based on ID which is sent to the Journal Entry component*/}
-      
     </li>
     )}
     </ul>

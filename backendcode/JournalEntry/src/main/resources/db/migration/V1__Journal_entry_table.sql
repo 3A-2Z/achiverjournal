@@ -1,0 +1,9 @@
+CREATE TABLE journalentry (
+    entryID VARCHAR(60) NOT NULL PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    entryDate VARCHAR(60) NOT NULL,
+    textData VARCHAR(10000000) NOT NULL,
+    tags VARCHAR(10000000) NOT NULL
+
+
+);      
