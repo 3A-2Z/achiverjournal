@@ -143,7 +143,7 @@ function Entry(){
                 <p>{tags}</p>
             </span>
         </div>
-        <button onClick = {HandleClick}>Edit</button>
+        <button onClick = {HandleClick}>Submit/Edit</button>
         <br />   
         <button onClick = {deleteHandler}>Delete</button>
         <br />   
